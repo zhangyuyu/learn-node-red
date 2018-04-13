@@ -1,0 +1,12 @@
+{
+    "name": "learn-node-red",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_CNyuzhang-2.local.json",
+            "credentialsFile": "flows_CNyuzhang-2.local_cred.json"
+        }
+    }
+}
