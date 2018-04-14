@@ -2,11 +2,13 @@
     "name": "learn-node-red",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-mqtt-broker": "0.2.3"
+    },
     "node-red": {
         "settings": {
-            "flowFile": "flows_CNyuzhang-2.local.json",
-            "credentialsFile": "flows_CNyuzhang-2.local_cred.json"
+            "flowFile": "flows_local.json",
+            "credentialsFile": "flows_local_cred.json"
         }
     }
 }
